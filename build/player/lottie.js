@@ -5149,6 +5149,7 @@ TextProperty.prototype.completeTextData = function(documentData) {
     var trackingOffset = documentData.tr/1000*documentData.finalSize;
     var charCode;
     if(documentData.sz){
+        i = 0;
         var flag = true;
         var boxWidth = documentData.sz[0];
         var boxHeight = documentData.sz[1];
